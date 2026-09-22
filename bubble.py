@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 # 0.CONFIGURAÇÂO DO GOOGLE CALENDAR [DEFINA AS VARIÁVEIS PARA CONEXÃO COM A API ABAIXO]
 # ============================================================
 
-id_da_agenda_la = "c_b3acdb7273f250637317320ab1e39d080d1cf208a74df06174629cfd7980e56e@group.calendar.google.com" # insira aqui o ID público da agenda que será preenchida
+id_da_agenda_la = "" # insira aqui o ID público da agenda que será preenchida
 
 esoupos = [ "https://www.googleapis.com/auth/calendar.events" ] # define que a api do google calendar será usada
 
@@ -24,10 +24,10 @@ arquivo_mais_secreto_ainda = "token.json" # Insira aqui o arquivo com os tokens 
 # 0.1.CONFIGURAÇÃO DA API DO BUBBLE [DEFINE AS VARIÁVEIS USADAS PARA ACESSO DA API DO BUBBLE.IO]
 # ============================================================
 
-BUBBLE_BASE_URL = "https://reservaslasalle.com.br" # URL base do site no bubble    
+BUBBLE_BASE_URL = "" # URL base do site no bubble    
 
-BUBBLE_RESERVA_URL = f"{BUBBLE_BASE_URL}/api/1.1/obj/reserva" # URL de acesso as reservas do bubble  (USE f"" em prints para inserir dados dinâmicos)
-BUBBLE_SALA_URL = f"{BUBBLE_BASE_URL}/api/1.1/obj/sala" # URL de acesso as salas do bubble
+BUBBLE_RESERVA_URL = f"{BUBBLE_BASE_URL}" # URL de acesso as reservas do bubble  (USE f"" em prints para inserir dados dinâmicos)
+BUBBLE_SALA_URL = f"{BUBBLE_BASE_URL}" # URL de acesso as salas do bubble
 
 # ============================================================
 # 1.CONECTAR COM O GUGU AGENDAS
