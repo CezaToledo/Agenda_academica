@@ -12,8 +12,8 @@ Esse script tem os seguintes objetivos:
    - Id do projeto no google cloud.
 
 Para rodar:
-- Abra o cmd;
-- Rode 'python bubble.py' no repositório.
+- Abra o terminal dentro do repositório ou navegue até ele;
+- Escreva 'python bubble.py' no terminal e aperte *enter*.
 
 @ *feito por Samuel Ceza Mesquita Toledo enquanto associado ao Inova Lasalle - Unilasalle Lucas*
 
